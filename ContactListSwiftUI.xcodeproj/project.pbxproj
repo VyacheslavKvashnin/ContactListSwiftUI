@@ -11,6 +11,8 @@
 		BD28632E2815C5090017ECFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28632D2815C5090017ECFE /* ContentView.swift */; };
 		BD2863302815C50B0017ECFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD28632F2815C50B0017ECFE /* Assets.xcassets */; };
 		BD2863332815C50B0017ECFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2863322815C50B0017ECFE /* Preview Assets.xcassets */; };
+		BD28633A2815C5560017ECFE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2863392815C5560017ECFE /* Person.swift */; };
+		BD28633C2815C6210017ECFE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28633B2815C6210017ECFE /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BD28632D2815C5090017ECFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD28632F2815C50B0017ECFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD2863322815C50B0017ECFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD2863392815C5560017ECFE /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BD28633B2815C6210017ECFE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				BD28632D2815C5090017ECFE /* ContentView.swift */,
 				BD28632F2815C50B0017ECFE /* Assets.xcassets */,
 				BD2863312815C50B0017ECFE /* Preview Content */,
+				BD2863392815C5560017ECFE /* Person.swift */,
+				BD28633B2815C6210017ECFE /* DataManager.swift */,
 			);
 			path = ContactListSwiftUI;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD28633A2815C5560017ECFE /* Person.swift in Sources */,
+				BD28633C2815C6210017ECFE /* DataManager.swift in Sources */,
 				BD28632E2815C5090017ECFE /* ContentView.swift in Sources */,
 				BD28632C2815C5090017ECFE /* ContactListSwiftUIApp.swift in Sources */,
 			);
