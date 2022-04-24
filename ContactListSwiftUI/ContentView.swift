@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var dataManager = DataManager()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationView {
+            TabView {
+                PersonListView()
+                    .tabItem {
+                        Image(systemName: "person")
+                        Text("Contacts")
+                    }
+                
+                PersonListSectionView()
+                    .tabItem {
+                        Image(systemName: "phone")
+                        Text("Numbers")
+                    }
+            }
+            .navigationTitle("Contact List")
+        }
+        .environmentObject(dataManager)
     }
 }
 
