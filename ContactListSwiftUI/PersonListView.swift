@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PersonListView: View {
-    let persons = Person.getPerson()
+    private let persons = Person.getPerson()
     
     var body: some View {
         VStack {

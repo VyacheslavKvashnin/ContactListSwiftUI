@@ -10,11 +10,7 @@ import Foundation
 class DataManager {
     
     static let shared = DataManager()
-    
-    private init() {}
-    
-    
-    
+
     let names = [
         "Harry", "Oliver", "Jack", "Charlie", "Thomas",
         "Jacob", "Alfie", "Riley", "William", "James"
@@ -35,5 +31,7 @@ class DataManager {
         "dog@mail.ru", "cat@mail.ru", "son@mail.com", "bit@gf.com",
         "fill@gmail.com", "jab@hy.com"
     ]
+    
+    private init() {}
     
 }

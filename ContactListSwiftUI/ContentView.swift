@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-//    @StateObject var dataManager = DataManager()
     var body: some View {
-        
         NavigationView {
             TabView {
                 PersonListView()
@@ -27,7 +25,6 @@ struct ContentView: View {
             }
             .navigationTitle("Contact List")
         }
-//        .environmentObject(dataManager)
     }
 }
 

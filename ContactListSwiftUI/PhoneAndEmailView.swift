@@ -26,7 +26,7 @@ struct PhoneAndEmailView: View {
                 Text(person.email)
             }
         }
-        .font(.title3)
+        .font(.body)
     }
 }
 
