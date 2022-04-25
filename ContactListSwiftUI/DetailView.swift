@@ -12,12 +12,17 @@ struct DetailView: View {
     let person: Person
     
     var body: some View {
-        VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 50) {
+            Image(systemName: "person.fill")
+                .resizable()
+                .frame(width: 150, height: 150)
             
+            PhoneAndEmailView(person: person)
             
-                .navigationTitle(person.name)
+            Spacer()
+                .navigationTitle(person.fullName)
         }
+        .padding()
     }
 }
 

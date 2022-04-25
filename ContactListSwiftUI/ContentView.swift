@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var dataManager = DataManager()
+//    @StateObject var dataManager = DataManager()
     var body: some View {
         
         NavigationView {
@@ -27,7 +27,7 @@ struct ContentView: View {
             }
             .navigationTitle("Contact List")
         }
-        .environmentObject(dataManager)
+//        .environmentObject(dataManager)
     }
 }
 

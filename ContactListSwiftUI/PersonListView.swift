@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct PersonListView: View {
-    
-    @EnvironmentObject var dataManager: DataManager
+    let persons = Person.getPerson()
     
     var body: some View {
         VStack {
-            List(dataManager.lastNames, id: \.self) { lastname in
-                Text(lastname)
+            List(persons, id: \.self) { person in
+                NavigationLink(person.fullName, destination: DetailView(person: person))
             }
             .listStyle(.plain)
         }

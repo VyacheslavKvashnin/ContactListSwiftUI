@@ -16,6 +16,7 @@
 		BD28633E2815C7DD0017ECFE /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28633D2815C7DD0017ECFE /* PersonListView.swift */; };
 		BD2863402815C7F10017ECFE /* PersonListSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28633F2815C7F10017ECFE /* PersonListSectionView.swift */; };
 		BD2863422815CD720017ECFE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2863412815CD720017ECFE /* DetailView.swift */; };
+		BD9555D82816D674001CC705 /* PhoneAndEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9555D72816D674001CC705 /* PhoneAndEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BD28633D2815C7DD0017ECFE /* PersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
 		BD28633F2815C7F10017ECFE /* PersonListSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListSectionView.swift; sourceTree = "<group>"; };
 		BD2863412815CD720017ECFE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BD9555D72816D674001CC705 /* PhoneAndEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAndEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +63,13 @@
 		BD28632A2815C5090017ECFE /* ContactListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BD28632B2815C5090017ECFE /* ContactListSwiftUIApp.swift */,
 				BD2863392815C5560017ECFE /* Person.swift */,
 				BD28633D2815C7DD0017ECFE /* PersonListView.swift */,
 				BD28633F2815C7F10017ECFE /* PersonListSectionView.swift */,
+				BD9555D72816D674001CC705 /* PhoneAndEmailView.swift */,
 				BD2863412815CD720017ECFE /* DetailView.swift */,
 				BD28633B2815C6210017ECFE /* DataManager.swift */,
-				BD28632B2815C5090017ECFE /* ContactListSwiftUIApp.swift */,
 				BD28632D2815C5090017ECFE /* ContentView.swift */,
 				BD28632F2815C50B0017ECFE /* Assets.xcassets */,
 				BD2863312815C50B0017ECFE /* Preview Content */,
@@ -154,6 +157,7 @@
 			files = (
 				BD28633A2815C5560017ECFE /* Person.swift in Sources */,
 				BD2863402815C7F10017ECFE /* PersonListSectionView.swift in Sources */,
+				BD9555D82816D674001CC705 /* PhoneAndEmailView.swift in Sources */,
 				BD28633C2815C6210017ECFE /* DataManager.swift in Sources */,
 				BD2863422815CD720017ECFE /* DetailView.swift in Sources */,
 				BD28632E2815C5090017ECFE /* ContentView.swift in Sources */,

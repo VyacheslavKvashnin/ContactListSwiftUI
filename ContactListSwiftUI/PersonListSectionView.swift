@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct PersonListSectionView: View {
-    @EnvironmentObject var dataManager: DataManager
+    let persons = Person.getPerson()
+    
     var body: some View {
         VStack {
-            List(dataManager.emails, id: \.self) { email in
-                Text(email)
+            List(persons, id: \.self) { person in
+                Section(person.fullName) {
+                    PhoneAndEmailView(person: person)
+                }
             }
             .listStyle(.plain)
         }
