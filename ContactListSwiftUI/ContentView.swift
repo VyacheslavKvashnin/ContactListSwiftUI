@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
             TabView {
                 PersonListView()
                     .tabItem {
@@ -23,8 +22,6 @@ struct ContentView: View {
                         Text("Numbers")
                     }
             }
-            .navigationTitle("Contact List")
-        }
     }
 }
 

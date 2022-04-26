@@ -11,11 +11,12 @@ struct PersonListView: View {
     private let persons = Person.getPerson()
     
     var body: some View {
-        VStack {
+        NavigationView {
             List(persons, id: \.self) { person in
                 NavigationLink(person.fullName, destination: DetailView(person: person))
             }
             .listStyle(.plain)
+            .navigationTitle("Contact List")
         }
     }
 }
